@@ -97,7 +97,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Item Manager</h1>
+      <h1 className='main-title'>Item Manager</h1>
 
       {error && <div className="error">{error}</div>}
 
@@ -146,7 +146,7 @@ function App() {
 
       {/* Items List */}
       <div className="items-list">
-        <h2>Items ({items.length})</h2>
+        <h2 className='items-title'>Items ({items.length})</h2>
         {loading && <p>Loading...</p>}
 
         {items.length === 0 && !loading && (

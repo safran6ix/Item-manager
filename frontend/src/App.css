@@ -1,3 +1,9 @@
+body{
+  background: #ffffff;
+}
+.main-title{
+  text-align: center;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -6,9 +12,9 @@
 }
 
 .item-form {
-  background: #f5f5f5;
-  padding: 20px;
-  border-radius: 8px;
+  background:#f5f5f5;
+  padding: 25px;
+  border-radius: 25px;
   margin-bottom: 30px;
 }
 
@@ -16,7 +22,7 @@
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -31,7 +37,7 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -45,14 +51,18 @@ button:disabled {
 }
 
 .item-card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px;
-  margin: 10px 0;
+  background: #d8ffb8;
+  /* border: 1px solid #ddd; */
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.items-title{
+  margin: 25px;
 }
 
 .item-info h3 {
