@@ -1,3 +1,6 @@
+body{
+  background: red;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -6,7 +9,7 @@
 }
 
 .item-form {
-  background: #000000;
+  background: #f5f5f5;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
